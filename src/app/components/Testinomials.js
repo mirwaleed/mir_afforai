@@ -16,29 +16,20 @@ export default function Testimonials() {
   const size = useWindowSize();
 
   return (
-    <div className="container-fluid w-full mt-40 md:mt-72 mx-auto max-w-screen-lg">
+    <div className="container-fluid mx-auto mt-40 w-full max-w-screen-lg md:mt-72">
       <div className="row mb-4">
         <div className="flex flex-col justify-center">
-          <div className="flex flex-col items-center container">
-            <a
-              href="https://www.producthunt.com/products/afforai/"
-              target="_blank"
-              className="mb-2"
-            >
+          <div className="container flex flex-col items-center">
+            <a href="https://www.producthunt.com/products/afforai/" target="_blank" className="mb-2">
               <picture>
                 <source srcSet="/images/ph-review.webp" type="image/webp" />
-                <img
-                  src="/images/ph-reviews.png"
-                  className="img-fluid"
-                  alt="Product Hunt Review 4.9/5"
-                  width="170px"
-                />
+                <img src="/images/ph-reviews.png" className="img-fluid" alt="Product Hunt Review 4.9/5" width="170px" />
               </picture>
             </a>
-            <div className="text-center mb-2 text-gray-800 font-semibold text-3xl leading-7">
+            <div className="mb-2 text-center text-3xl font-semibold leading-7 text-gray-800">
               See what our users say
             </div>
-            <div className="text-center mb-2 text-gray-500 font-normal text-base leading-6">
+            <div className="mb-2 text-center text-base font-normal leading-6 text-gray-500">
               Loved by thousands, all around the World
             </div>
           </div>
@@ -63,15 +54,14 @@ export default function Testimonials() {
           className="mySwiper w-full"
         >
           <SwiperSlide className="w-full">
-            <div className="flex gap-2 w-full">
-              <div className="flex flex-col rounded-lg mx-auto w-full md:max-w-2xl p-4 md:p-12 border border-gray-300">
-                <div className="text-wrap text-gray-800 text-base border-b border-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                  similique, ipsam esse tenetur autem obcaecati recusandae quae
-                  consequuntur placeat corporis ab, sunt fugiat voluptas
-                  molestiae dolores voluptates reiciendis unde nisi!
+            <div className="flex w-full gap-2">
+              <div className="mx-auto flex w-full flex-col rounded-lg border border-gray-300 p-4 md:max-w-2xl md:p-12">
+                <div className="text-wrap border-b border-gray-300 text-base text-gray-800">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla similique, ipsam esse tenetur autem
+                  obcaecati recusandae quae consequuntur placeat corporis ab, sunt fugiat voluptas molestiae dolores
+                  voluptates reiciendis unde nisi!
                 </div>
-                <div className="flex justify-between items-center pt-4">
+                <div className="flex items-center justify-between pt-4">
                   <div className="flex items-center gap-2">
                     <Image
                       src="/images/0-0.png"
@@ -80,24 +70,16 @@ export default function Testimonials() {
                       width={50}
                       height={50}
                     />
-                    <div className="text-gray-600 text-sm">
-                      Anatolii, Founder of Savvy Planning Systems
-                    </div>
+                    <div className="text-sm text-gray-600">Anatolii, Founder of Savvy Planning Systems</div>
                   </div>
                   <Link
                     href="https://www.producthunt.com/products/afforai/"
                     target="_blank"
-                    className="md:inline-flex items-center rounded-lg px-3 md:px-2 py-1 bg-pink-200 border border-red-400"
+                    className="items-center rounded-lg border border-red-400 bg-pink-200 px-3 py-1 md:inline-flex md:px-2"
                   >
                     <div className="inline-flex items-center gap-1">
-                      <img
-                        src="/images/producthunt.svg"
-                        alt="Product Hunt logo"
-                        height="16"
-                      />
-                      <span className="text-red-500 text-xs font-semibold">
-                        View on Product Hunt
-                      </span>
+                      <img src="/images/producthunt.svg" alt="Product Hunt logo" height="16" />
+                      <span className="text-xs font-semibold text-red-500">View on Product Hunt</span>
                     </div>
                   </Link>
                 </div>
@@ -105,15 +87,14 @@ export default function Testimonials() {
             </div>
           </SwiperSlide>
           <SwiperSlide className="w-full">
-            <div className="flex gap-2 w-full">
-              <div className="flex flex-col rounded-lg mx-auto w-full md:max-w-2xl p-4 md:p-12 border border-gray-300">
-                <div className="text-wrap text-gray-800 text-base border-b border-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                  similique, ipsam esse tenetur autem obcaecati recusandae quae
-                  consequuntur placeat corporis ab, sunt fugiat voluptas
-                  molestiae dolores voluptates reiciendis unde nisi!
+            <div className="flex w-full gap-2">
+              <div className="mx-auto flex w-full flex-col rounded-lg border border-gray-300 p-4 md:max-w-2xl md:p-12">
+                <div className="text-wrap border-b border-gray-300 text-base text-gray-800">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla similique, ipsam esse tenetur autem
+                  obcaecati recusandae quae consequuntur placeat corporis ab, sunt fugiat voluptas molestiae dolores
+                  voluptates reiciendis unde nisi!
                 </div>
-                <div className="flex justify-between items-center pt-4">
+                <div className="flex items-center justify-between pt-4">
                   <div className="flex items-center gap-2">
                     <Image
                       src="/images/0-0.png"
@@ -122,24 +103,16 @@ export default function Testimonials() {
                       width={50}
                       height={50}
                     />
-                    <div className="text-gray-600 text-sm">
-                      Anatolii, Founder of Savvy Planning Systems
-                    </div>
+                    <div className="text-sm text-gray-600">Anatolii, Founder of Savvy Planning Systems</div>
                   </div>
                   <Link
                     href="https://www.producthunt.com/products/afforai/"
                     target="_blank"
-                    className="md:inline-flex items-center rounded-lg px-3 md:px-2 py-1 bg-pink-200 border border-red-400"
+                    className="items-center rounded-lg border border-red-400 bg-pink-200 px-3 py-1 md:inline-flex md:px-2"
                   >
                     <div className="inline-flex items-center gap-1">
-                      <img
-                        src="/images/producthunt.svg"
-                        alt="Product Hunt logo"
-                        height="16"
-                      />
-                      <span className="text-red-500 text-xs font-semibold">
-                        View on Product Hunt
-                      </span>
+                      <img src="/images/producthunt.svg" alt="Product Hunt logo" height="16" />
+                      <span className="text-xs font-semibold text-red-500">View on Product Hunt</span>
                     </div>
                   </Link>
                 </div>
@@ -147,15 +120,14 @@ export default function Testimonials() {
             </div>
           </SwiperSlide>
           <SwiperSlide className="w-full">
-            <div className="flex gap-2 w-full">
-              <div className="flex flex-col rounded-lg mx-auto w-full md:max-w-2xl p-4 md:p-12 border border-gray-300">
-                <div className="text-wrap text-gray-800 text-base border-b border-gray-300">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                  similique, ipsam esse tenetur autem obcaecati recusandae quae
-                  consequuntur placeat corporis ab, sunt fugiat voluptas
-                  molestiae dolores voluptates reiciendis unde nisi!
+            <div className="flex w-full gap-2">
+              <div className="mx-auto flex w-full flex-col rounded-lg border border-gray-300 p-4 md:max-w-2xl md:p-12">
+                <div className="text-wrap border-b border-gray-300 text-base text-gray-800">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla similique, ipsam esse tenetur autem
+                  obcaecati recusandae quae consequuntur placeat corporis ab, sunt fugiat voluptas molestiae dolores
+                  voluptates reiciendis unde nisi!
                 </div>
-                <div className="flex justify-between items-center pt-4">
+                <div className="flex items-center justify-between pt-4">
                   <div className="flex items-center gap-2">
                     <Image
                       src="/images/0-0.png"
@@ -164,24 +136,16 @@ export default function Testimonials() {
                       width={50}
                       height={50}
                     />
-                    <div className="text-gray-600 text-sm">
-                      Anatolii, Founder of Savvy Planning Systems
-                    </div>
+                    <div className="text-sm text-gray-600">Anatolii, Founder of Savvy Planning Systems</div>
                   </div>
                   <Link
                     href="https://www.producthunt.com/products/afforai/"
                     target="_blank"
-                    className="md:inline-flex items-center rounded-lg px-3 md:px-2 py-1 bg-pink-200 border border-red-400"
+                    className="items-center rounded-lg border border-red-400 bg-pink-200 px-3 py-1 md:inline-flex md:px-2"
                   >
                     <div className="inline-flex items-center gap-1">
-                      <img
-                        src="/images/producthunt.svg"
-                        alt="Product Hunt logo"
-                        height="16"
-                      />
-                      <span className="text-red-500 text-xs font-semibold">
-                        View on Product Hunt
-                      </span>
+                      <img src="/images/producthunt.svg" alt="Product Hunt logo" height="16" />
+                      <span className="text-xs font-semibold text-red-500">View on Product Hunt</span>
                     </div>
                   </Link>
                 </div>
@@ -209,15 +173,14 @@ export default function Testimonials() {
           className="mySwiper relative z-10"
         >
           <SwiperSlide>
-            <div className="row flex gap-2 mx-4">
-              <div className="flex flex-col rounded-lg mx-auto w-full md:max-w-2xlh-auto p-4 md:p-12 border border-gray-300">
-                <div className="flex-grow-1 text-wrap text-gray-800 text-base border-b border-gray-300">
-                  Great tool for text analysis and emphasizing the main idea of
-                  a document. Especially when you need a quick answer without
-                  tons of epithets that beautifully describe something that can
-                  be actually described in a few words:)
+            <div className="row mx-4 flex gap-2">
+              <div className="md:max-w-2xlh-auto mx-auto flex w-full flex-col rounded-lg border border-gray-300 p-4 md:p-12">
+                <div className="flex-grow-1 text-wrap border-b border-gray-300 text-base text-gray-800">
+                  Great tool for text analysis and emphasizing the main idea of a document. Especially when you need a
+                  quick answer without tons of epithets that beautifully describe something that can be actually
+                  described in a few words:)
                 </div>
-                <div className="flex justify-between items-center pt-4">
+                <div className="flex items-center justify-between pt-4">
                   <div className="flex items-center gap-2">
                     <Image
                       src="/images/0-0.png"
@@ -226,24 +189,16 @@ export default function Testimonials() {
                       width={50}
                       height={50}
                     />
-                    <div className="text-gray-600 text-sm">
-                      Anatolii, Founder of Savvy Planning Systems
-                    </div>
+                    <div className="text-sm text-gray-600">Anatolii, Founder of Savvy Planning Systems</div>
                   </div>
                   <Link
                     href="https://www.producthunt.com/products/afforai/"
                     target="_blank"
-                    className="md:inline-flex items-center rounded-lg px-3 md:px-2 py-1 bg-pink-200 border border-red-400"
+                    className="items-center rounded-lg border border-red-400 bg-pink-200 px-3 py-1 md:inline-flex md:px-2"
                   >
                     <div className="inline-flex items-center gap-1">
-                      <img
-                        src="/images/producthunt.svg"
-                        alt="Product Hunt logo"
-                        height="16"
-                      />
-                      <span className="text-red-500 text-xs font-semibold">
-                        View on Product Hunt
-                      </span>
+                      <img src="/images/producthunt.svg" alt="Product Hunt logo" height="16" />
+                      <span className="text-xs font-semibold text-red-500">View on Product Hunt</span>
                     </div>
                   </Link>
                 </div>
@@ -251,15 +206,14 @@ export default function Testimonials() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="row flex gap-2 mx-4">
-              <div className="flex flex-col rounded-lg mx-auto w-full md:max-w-2xlh-auto p-4 md:p-12 border border-gray-300">
-                <div className="flex-grow-1 text-wrap text-gray-800 text-base border-b border-gray-300">
-                  Great tool for text analysis and emphasizing the main idea of
-                  a document. Especially when you need a quick answer without
-                  tons of epithets that beautifully describe something that can
-                  be actually described in a few words:)
+            <div className="row mx-4 flex gap-2">
+              <div className="md:max-w-2xlh-auto mx-auto flex w-full flex-col rounded-lg border border-gray-300 p-4 md:p-12">
+                <div className="flex-grow-1 text-wrap border-b border-gray-300 text-base text-gray-800">
+                  Great tool for text analysis and emphasizing the main idea of a document. Especially when you need a
+                  quick answer without tons of epithets that beautifully describe something that can be actually
+                  described in a few words:)
                 </div>
-                <div className="flex justify-between items-center pt-4">
+                <div className="flex items-center justify-between pt-4">
                   <div className="flex items-center gap-2">
                     <Image
                       src="/images/0-0.png"
@@ -268,24 +222,16 @@ export default function Testimonials() {
                       width={50}
                       height={50}
                     />
-                    <div className="text-gray-600 text-sm">
-                      Anatolii, Founder of Savvy Planning Systems
-                    </div>
+                    <div className="text-sm text-gray-600">Anatolii, Founder of Savvy Planning Systems</div>
                   </div>
                   <Link
                     href="https://www.producthunt.com/products/afforai/"
                     target="_blank"
-                    className="md:inline-flex items-center rounded-lg px-3 md:px-2 py-1 bg-pink-200 border border-red-400"
+                    className="items-center rounded-lg border border-red-400 bg-pink-200 px-3 py-1 md:inline-flex md:px-2"
                   >
                     <div className="inline-flex items-center gap-1">
-                      <img
-                        src="/images/producthunt.svg"
-                        alt="Product Hunt logo"
-                        height="16"
-                      />
-                      <span className="text-red-500 text-xs font-semibold">
-                        View on Product Hunt
-                      </span>
+                      <img src="/images/producthunt.svg" alt="Product Hunt logo" height="16" />
+                      <span className="text-xs font-semibold text-red-500">View on Product Hunt</span>
                     </div>
                   </Link>
                 </div>
@@ -293,15 +239,14 @@ export default function Testimonials() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="row flex gap-2 mx-4">
-              <div className="flex flex-col rounded-lg mx-auto w-full md:max-w-2xlh-auto p-4 md:p-12 border border-gray-300">
-                <div className="flex-grow-1 text-wrap text-gray-800 text-base border-b border-gray-300">
-                  Great tool for text analysis and emphasizing the main idea of
-                  a document. Especially when you need a quick answer without
-                  tons of epithets that beautifully describe something that can
-                  be actually described in a few words:)
+            <div className="row mx-4 flex gap-2">
+              <div className="md:max-w-2xlh-auto mx-auto flex w-full flex-col rounded-lg border border-gray-300 p-4 md:p-12">
+                <div className="flex-grow-1 text-wrap border-b border-gray-300 text-base text-gray-800">
+                  Great tool for text analysis and emphasizing the main idea of a document. Especially when you need a
+                  quick answer without tons of epithets that beautifully describe something that can be actually
+                  described in a few words:)
                 </div>
-                <div className="flex justify-between items-center pt-4">
+                <div className="flex items-center justify-between pt-4">
                   <div className="flex items-center gap-2">
                     <Image
                       src="/images/0-0.png"
@@ -310,24 +255,16 @@ export default function Testimonials() {
                       width={50}
                       height={50}
                     />
-                    <div className="text-gray-600 text-sm">
-                      Anatolii, Founder of Savvy Planning Systems
-                    </div>
+                    <div className="text-sm text-gray-600">Anatolii, Founder of Savvy Planning Systems</div>
                   </div>
                   <Link
                     href="https://www.producthunt.com/products/afforai/"
                     target="_blank"
-                    className="md:inline-flex items-center rounded-lg px-3 md:px-2 py-1 bg-pink-200 border border-red-400"
+                    className="items-center rounded-lg border border-red-400 bg-pink-200 px-3 py-1 md:inline-flex md:px-2"
                   >
                     <div className="inline-flex items-center gap-1">
-                      <img
-                        src="/images/producthunt.svg"
-                        alt="Product Hunt logo"
-                        height="16"
-                      />
-                      <span className="text-red-500 text-xs font-semibold">
-                        View on Product Hunt
-                      </span>
+                      <img src="/images/producthunt.svg" alt="Product Hunt logo" height="16" />
+                      <span className="text-xs font-semibold text-red-500">View on Product Hunt</span>
                     </div>
                   </Link>
                 </div>

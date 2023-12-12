@@ -2,7 +2,7 @@ import Brain from "./components/Brain";
 import ChatBots from "./components/ChatBots";
 import ChooseUs from "./components/ChooseUs";
 import Documents from "./components/Documents";
-import FAQ from "./components/Faq";
+import Faq from "./components/FrequentlyAskedQuestions";
 import FileWizard from "./components/FileWizard";
 import Footer from "./components/Footer";
 import Languages from "./components/Languages";
@@ -34,7 +34,7 @@ export default function Home() {
       <Testinomials />
       <Satisfaction />
       <SavingTime />
-      <FAQ />
+      <Faq />
       <Footer />
     </>
   );
